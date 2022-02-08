@@ -10,3 +10,7 @@ class SmallestIntegerFinder {
   function repeatStr (n, s) {
     return n > 1 ? s + repeatStr(--n, s) : s;
     }
+
+    function boolToWord( bool ){
+      return bool ? 'Yes':'No';
+     }
