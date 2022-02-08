@@ -5,4 +5,8 @@ class SmallestIntegerFinder {
      return Math.min(...args);
     }
   }
-
+  // Напишите вызываемую функцию, repeatStrкоторая повторяет заданную строку stringточное количество n раз.
+  
+  function repeatStr (n, s) {
+    return n > 1 ? s + repeatStr(--n, s) : s;
+    }
